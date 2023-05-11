@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Payment } from './step_3_extract_domain_code/components/Payment';
+import { Payment } from './step_4_add_feature_donate_charity/components/Payment';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         </a>
       </header>
       <section>
-        <Payment amount={100.0}/>
+        <Payment amount={99.2}/>
       </section>
     </div>
   );
