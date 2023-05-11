@@ -1,9 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {
-    Payment
-} from "./step_1_split_view_and_non_view_code/components/Payment";
+import { Payment } from './step_2_extract_subcomponent/components/Payment';
+
 
 function App() {
   return (
