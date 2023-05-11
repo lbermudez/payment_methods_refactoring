@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Payment } from './step_2_extract_subcomponent/components/Payment';
-
+import { Payment } from './step_3_extract_domain_code/components/Payment';
 
 function App() {
   return (
