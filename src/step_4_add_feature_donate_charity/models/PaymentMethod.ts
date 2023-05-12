@@ -1,4 +1,4 @@
-import {RemotePaymentMethod} from "../types";
+import { RemotePaymentMethod } from '../types';
 
 export class PaymentMethod {
     private remotePaymentMethod: RemotePaymentMethod;
@@ -14,7 +14,7 @@ export class PaymentMethod {
     get label(): string {
         return this.provider === 'cash'
             ? `Pay in ${this.provider}`
-            : `Pay with ${this.provider}`
+            : `Pay with ${this.provider}`;
     }
 
     get isDefaultMethod() {

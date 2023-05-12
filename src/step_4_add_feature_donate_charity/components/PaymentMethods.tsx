@@ -1,19 +1,17 @@
-import {PaymentMethod} from "../models/PaymentMethod";
+import { PaymentMethod } from '../models/PaymentMethod';
 
-export const PaymentMethods = ({ options }: {options: PaymentMethod[]}) => (
+export const PaymentMethods = ({ options }: { options: PaymentMethod[] }) => (
     <div className={'vertical-labels'}>
-        {
-            options.map((method) => (
-                <label key={method.provider}>
-                    <input
-                        type="radio"
-                        name="payment"
-                        value={method.provider}
-                        defaultChecked={method.isDefaultMethod}
-                    />
-                    <span>{method.label}</span>
-                </label>
-            ))
-        }
+        {options.map(method => (
+            <label key={method.provider}>
+                <input
+                    type="radio"
+                    name="payment"
+                    value={method.provider}
+                    defaultChecked={method.isDefaultMethod}
+                />
+                <span>{method.label}</span>
+            </label>
+        ))}
     </div>
 );
