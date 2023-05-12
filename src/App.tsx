@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Payment } from './step_5_add_feat_countries/components/Payment';
-import { CountryPayment } from './step_5_add_feat_countries/models/CountryPayment';
-import { PaymentStrategyAU } from './step_5_add_feat_countries/models/PaymentStrategyAU';
+import { Payment } from './step_6_extract_fetcher/components/Payment';
+import { CountryPayment } from './step_6_extract_fetcher/models/CountryPayment';
+import { PaymentStrategyAU } from './step_6_extract_fetcher/models/PaymentStrategyAU';
 
 function App() {
     return (
